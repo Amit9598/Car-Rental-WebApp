@@ -1,0 +1,106 @@
+body{
+margin:0px;
+    font-family: 'ABeeZee';
+
+}
+table{
+width:100%;
+font-size:20px;
+border-collapse:collapse;
+}
+tr:nthchild(even){
+background:#f6f6f6;
+}
+td,th{
+font-size:20px;
+border:1px solid black;
+padding:10px;
+}
+
+p{
+font-size:18px;
+}
+div{
+float:left;
+width:100%;
+box-sizing:border-box;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    font-size:18px;
+    border-radius:10px;
+    float:right;
+}
+input[type=text],input[type=password],input[type=email]{
+padding:10px;
+margin:5px;
+border-radius:10px;
+width:100%;
+}
+.header{
+background:#244;
+color:white;
+}
+.header img{
+width:150px;
+height:70px;
+}
+.header .navbar{
+float:right;
+}
+.header .navbar li a{
+text-decoration:none;
+padding:0px 20px;
+color:white;
+}
+.header .navbar li{
+list-style-type:none;
+display:inline;
+font-size:22px;
+}
+.header .navbar li a:hover{
+color:green;
+}
+.footer{
+padding:0px 10%;
+background:#233;
+color:white;
+}
+.footer .contact a img{
+width:30px;
+height:30px;
+margin:5px;
+border-radius:100%;
+}
+
+.img{
+width:100%;
+height:400px;
+}
+.img img{
+width:100%;
+height:100%;
+}
+
+.back_img{
+margin:0px;
+background:url(back_1.png);
+background-size:cover;
+font-size:20px;
+}
+
+.back_img .back{
+background:rgba(0,0,0,0.7);
+padding:100px;
+}
+.back_img .back .form{
+background:blue;
+width:40%;
+padding:20px;
+}
+
